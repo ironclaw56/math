@@ -1,0 +1,319 @@
+{
+  "classId": "class10",
+  "className": "Class 10",
+  "shortLabel": "10th",
+  "chapters": [
+    {
+      "id": "class10-ch1",
+      "chapterNumber": 1,
+      "title": "Quadratic Equations",
+      "exercises": [
+        {
+          "id": "class10-ch1-ex1",
+          "title": "Exercise 1.1"
+        },
+        {
+          "id": "class10-ch1-ex2",
+          "title": "Exercise 1.2"
+        },
+        {
+          "id": "class10-ch1-ex3",
+          "title": "Exercise 1.3"
+        },
+        {
+          "id": "class10-ch1-review",
+          "title": "Exercise 1 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch2",
+      "chapterNumber": 2,
+      "title": "Theory of Quadratic Equations",
+      "exercises": [
+        {
+          "id": "class10-ch2-ex1",
+          "title": "Exercise 2.1"
+        },
+        {
+          "id": "class10-ch2-ex2",
+          "title": "Exercise 2.2"
+        },
+        {
+          "id": "class10-ch2-ex3",
+          "title": "Exercise 2.3"
+        },
+        {
+          "id": "class10-ch2-review",
+          "title": "Exercise 2 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch3",
+      "chapterNumber": 3,
+      "title": "Variations",
+      "exercises": [
+        {
+          "id": "class10-ch3-ex1",
+          "title": "Exercise 3.1"
+        },
+        {
+          "id": "class10-ch3-ex2",
+          "title": "Exercise 3.2"
+        },
+        {
+          "id": "class10-ch3-ex3",
+          "title": "Exercise 3.3"
+        },
+        {
+          "id": "class10-ch3-review",
+          "title": "Exercise 3 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch4",
+      "chapterNumber": 4,
+      "title": "Partial Fractions",
+      "exercises": [
+        {
+          "id": "class10-ch4-ex1",
+          "title": "Exercise 4.1"
+        },
+        {
+          "id": "class10-ch4-ex2",
+          "title": "Exercise 4.2"
+        },
+        {
+          "id": "class10-ch4-ex3",
+          "title": "Exercise 4.3"
+        },
+        {
+          "id": "class10-ch4-review",
+          "title": "Exercise 4 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch5",
+      "chapterNumber": 5,
+      "title": "Sets & Functions",
+      "exercises": [
+        {
+          "id": "class10-ch5-ex1",
+          "title": "Exercise 5.1"
+        },
+        {
+          "id": "class10-ch5-ex2",
+          "title": "Exercise 5.2"
+        },
+        {
+          "id": "class10-ch5-ex3",
+          "title": "Exercise 5.3"
+        },
+        {
+          "id": "class10-ch5-review",
+          "title": "Exercise 5 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch6",
+      "chapterNumber": 6,
+      "title": "Basic Statistics",
+      "exercises": [
+        {
+          "id": "class10-ch6-ex1",
+          "title": "Exercise 6.1"
+        },
+        {
+          "id": "class10-ch6-ex2",
+          "title": "Exercise 6.2"
+        },
+        {
+          "id": "class10-ch6-ex3",
+          "title": "Exercise 6.3"
+        },
+        {
+          "id": "class10-ch6-review",
+          "title": "Exercise 6 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch7",
+      "chapterNumber": 7,
+      "title": "Introduction to Trigonometry",
+      "exercises": [
+        {
+          "id": "class10-ch7-ex1",
+          "title": "Exercise 7.1"
+        },
+        {
+          "id": "class10-ch7-ex2",
+          "title": "Exercise 7.2"
+        },
+        {
+          "id": "class10-ch7-ex3",
+          "title": "Exercise 7.3"
+        },
+        {
+          "id": "class10-ch7-review",
+          "title": "Exercise 7 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch8",
+      "chapterNumber": 8,
+      "title": "Projection of a Side of a Triangle",
+      "exercises": [
+        {
+          "id": "class10-ch8-ex1",
+          "title": "Exercise 8.1"
+        },
+        {
+          "id": "class10-ch8-ex2",
+          "title": "Exercise 8.2"
+        },
+        {
+          "id": "class10-ch8-ex3",
+          "title": "Exercise 8.3"
+        },
+        {
+          "id": "class10-ch8-review",
+          "title": "Exercise 8 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch9",
+      "chapterNumber": 9,
+      "title": "Chords of a Circle",
+      "exercises": [
+        {
+          "id": "class10-ch9-ex1",
+          "title": "Exercise 9.1"
+        },
+        {
+          "id": "class10-ch9-ex2",
+          "title": "Exercise 9.2"
+        },
+        {
+          "id": "class10-ch9-ex3",
+          "title": "Exercise 9.3"
+        },
+        {
+          "id": "class10-ch9-review",
+          "title": "Exercise 9 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch10",
+      "chapterNumber": 10,
+      "title": "Tangent to a Circle",
+      "exercises": [
+        {
+          "id": "class10-ch10-ex1",
+          "title": "Exercise 10.1"
+        },
+        {
+          "id": "class10-ch10-ex2",
+          "title": "Exercise 10.2"
+        },
+        {
+          "id": "class10-ch10-ex3",
+          "title": "Exercise 10.3"
+        },
+        {
+          "id": "class10-ch10-review",
+          "title": "Exercise 10 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch11",
+      "chapterNumber": 11,
+      "title": "Chords and Arcs",
+      "exercises": [
+        {
+          "id": "class10-ch11-ex1",
+          "title": "Exercise 11.1"
+        },
+        {
+          "id": "class10-ch11-ex2",
+          "title": "Exercise 11.2"
+        },
+        {
+          "id": "class10-ch11-ex3",
+          "title": "Exercise 11.3"
+        },
+        {
+          "id": "class10-ch11-review",
+          "title": "Exercise 11 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch12",
+      "chapterNumber": 12,
+      "title": "Angle in a Segment of a Circle",
+      "exercises": [
+        {
+          "id": "class10-ch12-ex1",
+          "title": "Exercise 12.1"
+        },
+        {
+          "id": "class10-ch12-ex2",
+          "title": "Exercise 12.2"
+        },
+        {
+          "id": "class10-ch12-ex3",
+          "title": "Exercise 12.3"
+        },
+        {
+          "id": "class10-ch12-review",
+          "title": "Exercise 12 Review"
+        }
+      ],
+      "isBookmarked": false
+    },
+    {
+      "id": "class10-ch13",
+      "chapterNumber": 13,
+      "title": "Practical Geometry - Circles",
+      "exercises": [
+        {
+          "id": "class10-ch13-ex1",
+          "title": "Exercise 13.1"
+        },
+        {
+          "id": "class10-ch13-ex2",
+          "title": "Exercise 13.2"
+        },
+        {
+          "id": "class10-ch13-ex3",
+          "title": "Exercise 13.3"
+        },
+        {
+          "id": "class10-ch13-review",
+          "title": "Exercise 13 Review"
+        }
+      ],
+      "isBookmarked": false
+    }
+  ]
+}
