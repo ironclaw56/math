@@ -6,7 +6,7 @@
     {
       "id": "class10-ch1",
       "chapterNumber": 1,
-      "title": "Quadratic Equations",
+      "title": "Complex Number",
       "exercises": [
         {
           "id": "class10-ch1-ex1",
@@ -20,9 +20,13 @@
           "id": "class10-ch1-ex3",
           "title": "Exercise 1.3"
         },
+          {
+          "id": "class10-ch1-ex4",
+          "title": "Exercise 1.4"
+        },
         {
           "id": "class10-ch1-review",
-          "title": "Exercise 1 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -30,7 +34,7 @@
     {
       "id": "class10-ch2",
       "chapterNumber": 2,
-      "title": "Theory of Quadratic Equations",
+      "title": "Quadratic Equations and Inequalities",
       "exercises": [
         {
           "id": "class10-ch2-ex1",
@@ -44,9 +48,25 @@
           "id": "class10-ch2-ex3",
           "title": "Exercise 2.3"
         },
+         {
+          "id": "class10-ch2-ex4",
+          "title": "Exercise 2.4"
+        },
+         {
+          "id": "class10-ch2-ex5",
+          "title": "Exercise 2.5"
+        },
+         {
+          "id": "class10-ch2-ex6",
+          "title": "Exercise 2.6"
+        },
+         {
+          "id": "class10-ch2-ex7",
+          "title": "Exercise 2.7"
+        },
         {
           "id": "class10-ch2-review",
-          "title": "Exercise 2 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
