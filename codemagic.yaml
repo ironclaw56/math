@@ -3,33 +3,24 @@ workflows:
     name: Math Learning App - Android APK
     max_build_duration: 60
     instance_type: mac_mini_m2
-    working_directory: math_learning_app
     environment:
       flutter: stable
       vars:
         PACKAGE_NAME: "com.example.math_learning_app"
 
     scripts:
-      - name: Debug - show folder structure
+      - name: Debug - show repo root structure
         script: |
           echo "----- Current directory -----"
           pwd
-          echo "----- Files here -----"
+          echo "----- Files at repo root -----"
           ls -la
-          echo "----- One level up -----"
-          ls -la ..
-
-      - name: Get Flutter packages
-        script: |
-          flutter pub get
-
-      - name: Build APK (release)
-        script: |
-          flutter build apk --release
+          echo "----- Search for pubspec.yaml -----"
+          find . -name "pubspec.yaml" -not -path "*/ephemeral/*"
 
     artifacts:
       - math_learning_app/build/**/outputs/**/*.apk
-      - math_learning_app/build/**/outputs/**/mapping.txt
+      - build/**/outputs/**/*.apk
 
     publishing:
       email:
