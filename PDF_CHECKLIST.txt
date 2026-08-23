@@ -1,0 +1,292 @@
+=== Class 9 ===
+  Chapter 1: Real Numbers
+    assets/pdfs/class9-ch1-ex1.pdf   <-- Exercise 1.1
+    assets/pdfs/class9-ch1-ex2.pdf   <-- Exercise 1.2
+    assets/pdfs/class9-ch1-ex3.pdf   <-- Exercise 1.3
+    assets/pdfs/class9-ch1-review.pdf   <-- Exercise 1 Review
+  Chapter 2: Logarithms
+    assets/pdfs/class9-ch2-ex1.pdf   <-- Exercise 2.1
+    assets/pdfs/class9-ch2-ex2.pdf   <-- Exercise 2.2
+    assets/pdfs/class9-ch2-ex3.pdf   <-- Exercise 2.3
+    assets/pdfs/class9-ch2-review.pdf   <-- Exercise 2 Review
+  Chapter 3: Algebraic Expressions
+    assets/pdfs/class9-ch3-ex1.pdf   <-- Exercise 3.1
+    assets/pdfs/class9-ch3-ex2.pdf   <-- Exercise 3.2
+    assets/pdfs/class9-ch3-ex3.pdf   <-- Exercise 3.3
+    assets/pdfs/class9-ch3-review.pdf   <-- Exercise 3 Review
+  Chapter 4: Factorization
+    assets/pdfs/class9-ch4-ex1.pdf   <-- Exercise 4.1
+    assets/pdfs/class9-ch4-ex2.pdf   <-- Exercise 4.2
+    assets/pdfs/class9-ch4-ex3.pdf   <-- Exercise 4.3
+    assets/pdfs/class9-ch4-review.pdf   <-- Exercise 4 Review
+  Chapter 5: Algebraic Formulas & Applications
+    assets/pdfs/class9-ch5-ex1.pdf   <-- Exercise 5.1
+    assets/pdfs/class9-ch5-ex2.pdf   <-- Exercise 5.2
+    assets/pdfs/class9-ch5-ex3.pdf   <-- Exercise 5.3
+    assets/pdfs/class9-ch5-review.pdf   <-- Exercise 5 Review
+  Chapter 6: Linear Equations & Inequalities
+    assets/pdfs/class9-ch6-ex1.pdf   <-- Exercise 6.1
+    assets/pdfs/class9-ch6-ex2.pdf   <-- Exercise 6.2
+    assets/pdfs/class9-ch6-ex3.pdf   <-- Exercise 6.3
+    assets/pdfs/class9-ch6-review.pdf   <-- Exercise 6 Review
+  Chapter 7: Antinomy of Sets
+    assets/pdfs/class9-ch7-ex1.pdf   <-- Exercise 7.1
+    assets/pdfs/class9-ch7-ex2.pdf   <-- Exercise 7.2
+    assets/pdfs/class9-ch7-ex3.pdf   <-- Exercise 7.3
+    assets/pdfs/class9-ch7-review.pdf   <-- Exercise 7 Review
+  Chapter 8: Fundamentals of Geometry
+    assets/pdfs/class9-ch8-ex1.pdf   <-- Exercise 8.1
+    assets/pdfs/class9-ch8-ex2.pdf   <-- Exercise 8.2
+    assets/pdfs/class9-ch8-ex3.pdf   <-- Exercise 8.3
+    assets/pdfs/class9-ch8-review.pdf   <-- Exercise 8 Review
+  Chapter 9: Congruent Triangles
+    assets/pdfs/class9-ch9-ex1.pdf   <-- Exercise 9.1
+    assets/pdfs/class9-ch9-ex2.pdf   <-- Exercise 9.2
+    assets/pdfs/class9-ch9-ex3.pdf   <-- Exercise 9.3
+    assets/pdfs/class9-ch9-review.pdf   <-- Exercise 9 Review
+  Chapter 10: Parallelograms & Triangles
+    assets/pdfs/class9-ch10-ex1.pdf   <-- Exercise 10.1
+    assets/pdfs/class9-ch10-ex2.pdf   <-- Exercise 10.2
+    assets/pdfs/class9-ch10-ex3.pdf   <-- Exercise 10.3
+    assets/pdfs/class9-ch10-review.pdf   <-- Exercise 10 Review
+  Chapter 11: Line Bisectors & Angle Bisectors
+    assets/pdfs/class9-ch11-ex1.pdf   <-- Exercise 11.1
+    assets/pdfs/class9-ch11-ex2.pdf   <-- Exercise 11.2
+    assets/pdfs/class9-ch11-ex3.pdf   <-- Exercise 11.3
+    assets/pdfs/class9-ch11-review.pdf   <-- Exercise 11 Review
+  Chapter 12: Sides & Angles of a Triangle
+    assets/pdfs/class9-ch12-ex1.pdf   <-- Exercise 12.1
+    assets/pdfs/class9-ch12-ex2.pdf   <-- Exercise 12.2
+    assets/pdfs/class9-ch12-ex3.pdf   <-- Exercise 12.3
+    assets/pdfs/class9-ch12-review.pdf   <-- Exercise 12 Review
+  Chapter 13: Ratio & Proportion
+    assets/pdfs/class9-ch13-ex1.pdf   <-- Exercise 13.1
+    assets/pdfs/class9-ch13-ex2.pdf   <-- Exercise 13.2
+    assets/pdfs/class9-ch13-ex3.pdf   <-- Exercise 13.3
+    assets/pdfs/class9-ch13-review.pdf   <-- Exercise 13 Review
+  Chapter 14: Pythagoras Theorem
+    assets/pdfs/class9-ch14-ex1.pdf   <-- Exercise 14.1
+    assets/pdfs/class9-ch14-ex2.pdf   <-- Exercise 14.2
+    assets/pdfs/class9-ch14-ex3.pdf   <-- Exercise 14.3
+    assets/pdfs/class9-ch14-review.pdf   <-- Exercise 14 Review
+  Chapter 15: Theorems Related with Area
+    assets/pdfs/class9-ch15-ex1.pdf   <-- Exercise 15.1
+    assets/pdfs/class9-ch15-ex2.pdf   <-- Exercise 15.2
+    assets/pdfs/class9-ch15-ex3.pdf   <-- Exercise 15.3
+    assets/pdfs/class9-ch15-review.pdf   <-- Exercise 15 Review
+  Chapter 16: Practical Geometry - Triangles
+    assets/pdfs/class9-ch16-ex1.pdf   <-- Exercise 16.1
+    assets/pdfs/class9-ch16-ex2.pdf   <-- Exercise 16.2
+    assets/pdfs/class9-ch16-ex3.pdf   <-- Exercise 16.3
+    assets/pdfs/class9-ch16-review.pdf   <-- Exercise 16 Review
+  Chapter 17: Circles
+    assets/pdfs/class9-ch17-ex1.pdf   <-- Exercise 17.1
+    assets/pdfs/class9-ch17-ex2.pdf   <-- Exercise 17.2
+    assets/pdfs/class9-ch17-ex3.pdf   <-- Exercise 17.3
+    assets/pdfs/class9-ch17-review.pdf   <-- Exercise 17 Review
+
+=== Class 10 ===
+  Chapter 1: Quadratic Equations
+    assets/pdfs/class10-ch1-ex1.pdf   <-- Exercise 1.1
+    assets/pdfs/class10-ch1-ex2.pdf   <-- Exercise 1.2
+    assets/pdfs/class10-ch1-ex3.pdf   <-- Exercise 1.3
+    assets/pdfs/class10-ch1-review.pdf   <-- Exercise 1 Review
+  Chapter 2: Theory of Quadratic Equations
+    assets/pdfs/class10-ch2-ex1.pdf   <-- Exercise 2.1
+    assets/pdfs/class10-ch2-ex2.pdf   <-- Exercise 2.2
+    assets/pdfs/class10-ch2-ex3.pdf   <-- Exercise 2.3
+    assets/pdfs/class10-ch2-review.pdf   <-- Exercise 2 Review
+  Chapter 3: Variations
+    assets/pdfs/class10-ch3-ex1.pdf   <-- Exercise 3.1
+    assets/pdfs/class10-ch3-ex2.pdf   <-- Exercise 3.2
+    assets/pdfs/class10-ch3-ex3.pdf   <-- Exercise 3.3
+    assets/pdfs/class10-ch3-review.pdf   <-- Exercise 3 Review
+  Chapter 4: Partial Fractions
+    assets/pdfs/class10-ch4-ex1.pdf   <-- Exercise 4.1
+    assets/pdfs/class10-ch4-ex2.pdf   <-- Exercise 4.2
+    assets/pdfs/class10-ch4-ex3.pdf   <-- Exercise 4.3
+    assets/pdfs/class10-ch4-review.pdf   <-- Exercise 4 Review
+  Chapter 5: Sets & Functions
+    assets/pdfs/class10-ch5-ex1.pdf   <-- Exercise 5.1
+    assets/pdfs/class10-ch5-ex2.pdf   <-- Exercise 5.2
+    assets/pdfs/class10-ch5-ex3.pdf   <-- Exercise 5.3
+    assets/pdfs/class10-ch5-review.pdf   <-- Exercise 5 Review
+  Chapter 6: Basic Statistics
+    assets/pdfs/class10-ch6-ex1.pdf   <-- Exercise 6.1
+    assets/pdfs/class10-ch6-ex2.pdf   <-- Exercise 6.2
+    assets/pdfs/class10-ch6-ex3.pdf   <-- Exercise 6.3
+    assets/pdfs/class10-ch6-review.pdf   <-- Exercise 6 Review
+  Chapter 7: Introduction to Trigonometry
+    assets/pdfs/class10-ch7-ex1.pdf   <-- Exercise 7.1
+    assets/pdfs/class10-ch7-ex2.pdf   <-- Exercise 7.2
+    assets/pdfs/class10-ch7-ex3.pdf   <-- Exercise 7.3
+    assets/pdfs/class10-ch7-review.pdf   <-- Exercise 7 Review
+  Chapter 8: Projection of a Side of a Triangle
+    assets/pdfs/class10-ch8-ex1.pdf   <-- Exercise 8.1
+    assets/pdfs/class10-ch8-ex2.pdf   <-- Exercise 8.2
+    assets/pdfs/class10-ch8-ex3.pdf   <-- Exercise 8.3
+    assets/pdfs/class10-ch8-review.pdf   <-- Exercise 8 Review
+  Chapter 9: Chords of a Circle
+    assets/pdfs/class10-ch9-ex1.pdf   <-- Exercise 9.1
+    assets/pdfs/class10-ch9-ex2.pdf   <-- Exercise 9.2
+    assets/pdfs/class10-ch9-ex3.pdf   <-- Exercise 9.3
+    assets/pdfs/class10-ch9-review.pdf   <-- Exercise 9 Review
+  Chapter 10: Tangent to a Circle
+    assets/pdfs/class10-ch10-ex1.pdf   <-- Exercise 10.1
+    assets/pdfs/class10-ch10-ex2.pdf   <-- Exercise 10.2
+    assets/pdfs/class10-ch10-ex3.pdf   <-- Exercise 10.3
+    assets/pdfs/class10-ch10-review.pdf   <-- Exercise 10 Review
+  Chapter 11: Chords and Arcs
+    assets/pdfs/class10-ch11-ex1.pdf   <-- Exercise 11.1
+    assets/pdfs/class10-ch11-ex2.pdf   <-- Exercise 11.2
+    assets/pdfs/class10-ch11-ex3.pdf   <-- Exercise 11.3
+    assets/pdfs/class10-ch11-review.pdf   <-- Exercise 11 Review
+  Chapter 12: Angle in a Segment of a Circle
+    assets/pdfs/class10-ch12-ex1.pdf   <-- Exercise 12.1
+    assets/pdfs/class10-ch12-ex2.pdf   <-- Exercise 12.2
+    assets/pdfs/class10-ch12-ex3.pdf   <-- Exercise 12.3
+    assets/pdfs/class10-ch12-review.pdf   <-- Exercise 12 Review
+  Chapter 13: Practical Geometry - Circles
+    assets/pdfs/class10-ch13-ex1.pdf   <-- Exercise 13.1
+    assets/pdfs/class10-ch13-ex2.pdf   <-- Exercise 13.2
+    assets/pdfs/class10-ch13-ex3.pdf   <-- Exercise 13.3
+    assets/pdfs/class10-ch13-review.pdf   <-- Exercise 13 Review
+
+=== Class 11 ===
+  Chapter 1: Number Systems
+    assets/pdfs/class11-ch1-ex1.pdf   <-- Exercise 1.1
+    assets/pdfs/class11-ch1-ex2.pdf   <-- Exercise 1.2
+    assets/pdfs/class11-ch1-ex3.pdf   <-- Exercise 1.3
+    assets/pdfs/class11-ch1-review.pdf   <-- Exercise 1 Review
+  Chapter 2: Sets, Functions & Groups
+    assets/pdfs/class11-ch2-ex1.pdf   <-- Exercise 2.1
+    assets/pdfs/class11-ch2-ex2.pdf   <-- Exercise 2.2
+    assets/pdfs/class11-ch2-ex3.pdf   <-- Exercise 2.3
+    assets/pdfs/class11-ch2-review.pdf   <-- Exercise 2 Review
+  Chapter 3: Matrices & Determinants
+    assets/pdfs/class11-ch3-ex1.pdf   <-- Exercise 3.1
+    assets/pdfs/class11-ch3-ex2.pdf   <-- Exercise 3.2
+    assets/pdfs/class11-ch3-ex3.pdf   <-- Exercise 3.3
+    assets/pdfs/class11-ch3-review.pdf   <-- Exercise 3 Review
+  Chapter 4: Quadratic Equations
+    assets/pdfs/class11-ch4-ex1.pdf   <-- Exercise 4.1
+    assets/pdfs/class11-ch4-ex2.pdf   <-- Exercise 4.2
+    assets/pdfs/class11-ch4-ex3.pdf   <-- Exercise 4.3
+    assets/pdfs/class11-ch4-review.pdf   <-- Exercise 4 Review
+  Chapter 5: Partial Fractions
+    assets/pdfs/class11-ch5-ex1.pdf   <-- Exercise 5.1
+    assets/pdfs/class11-ch5-ex2.pdf   <-- Exercise 5.2
+    assets/pdfs/class11-ch5-ex3.pdf   <-- Exercise 5.3
+    assets/pdfs/class11-ch5-review.pdf   <-- Exercise 5 Review
+  Chapter 6: Sequences & Series
+    assets/pdfs/class11-ch6-ex1.pdf   <-- Exercise 6.1
+    assets/pdfs/class11-ch6-ex2.pdf   <-- Exercise 6.2
+    assets/pdfs/class11-ch6-ex3.pdf   <-- Exercise 6.3
+    assets/pdfs/class11-ch6-review.pdf   <-- Exercise 6 Review
+  Chapter 7: Permutation, Combination & Probability
+    assets/pdfs/class11-ch7-ex1.pdf   <-- Exercise 7.1
+    assets/pdfs/class11-ch7-ex2.pdf   <-- Exercise 7.2
+    assets/pdfs/class11-ch7-ex3.pdf   <-- Exercise 7.3
+    assets/pdfs/class11-ch7-review.pdf   <-- Exercise 7 Review
+  Chapter 8: Mathematical Induction & Binomial Theorem
+    assets/pdfs/class11-ch8-ex1.pdf   <-- Exercise 8.1
+    assets/pdfs/class11-ch8-ex2.pdf   <-- Exercise 8.2
+    assets/pdfs/class11-ch8-ex3.pdf   <-- Exercise 8.3
+    assets/pdfs/class11-ch8-review.pdf   <-- Exercise 8 Review
+  Chapter 9: Fundamentals of Trigonometry
+    assets/pdfs/class11-ch9-ex1.pdf   <-- Exercise 9.1
+    assets/pdfs/class11-ch9-ex2.pdf   <-- Exercise 9.2
+    assets/pdfs/class11-ch9-ex3.pdf   <-- Exercise 9.3
+    assets/pdfs/class11-ch9-review.pdf   <-- Exercise 9 Review
+  Chapter 10: Trigonometric Identities
+    assets/pdfs/class11-ch10-ex1.pdf   <-- Exercise 10.1
+    assets/pdfs/class11-ch10-ex2.pdf   <-- Exercise 10.2
+    assets/pdfs/class11-ch10-ex3.pdf   <-- Exercise 10.3
+    assets/pdfs/class11-ch10-review.pdf   <-- Exercise 10 Review
+  Chapter 11: Trigonometric Functions & Graphs
+    assets/pdfs/class11-ch11-ex1.pdf   <-- Exercise 11.1
+    assets/pdfs/class11-ch11-ex2.pdf   <-- Exercise 11.2
+    assets/pdfs/class11-ch11-ex3.pdf   <-- Exercise 11.3
+    assets/pdfs/class11-ch11-review.pdf   <-- Exercise 11 Review
+  Chapter 12: Application of Trigonometry
+    assets/pdfs/class11-ch12-ex1.pdf   <-- Exercise 12.1
+    assets/pdfs/class11-ch12-ex2.pdf   <-- Exercise 12.2
+    assets/pdfs/class11-ch12-ex3.pdf   <-- Exercise 12.3
+    assets/pdfs/class11-ch12-review.pdf   <-- Exercise 12 Review
+  Chapter 13: Inverse Trigonometric Functions
+    assets/pdfs/class11-ch13-ex1.pdf   <-- Exercise 13.1
+    assets/pdfs/class11-ch13-ex2.pdf   <-- Exercise 13.2
+    assets/pdfs/class11-ch13-ex3.pdf   <-- Exercise 13.3
+    assets/pdfs/class11-ch13-review.pdf   <-- Exercise 13 Review
+  Chapter 14: Solutions of Trigonometric Equations
+    assets/pdfs/class11-ch14-ex1.pdf   <-- Exercise 14.1
+    assets/pdfs/class11-ch14-ex2.pdf   <-- Exercise 14.2
+    assets/pdfs/class11-ch14-ex3.pdf   <-- Exercise 14.3
+    assets/pdfs/class11-ch14-review.pdf   <-- Exercise 14 Review
+  Chapter 15: Plane Analytic Geometry - Line
+    assets/pdfs/class11-ch15-ex1.pdf   <-- Exercise 15.1
+    assets/pdfs/class11-ch15-ex2.pdf   <-- Exercise 15.2
+    assets/pdfs/class11-ch15-ex3.pdf   <-- Exercise 15.3
+    assets/pdfs/class11-ch15-review.pdf   <-- Exercise 15 Review
+
+=== Class 12 ===
+  Chapter 1: Functions & Limits
+    assets/pdfs/class12-ch1-ex1.pdf   <-- Exercise 1.1
+    assets/pdfs/class12-ch1-ex2.pdf   <-- Exercise 1.2
+    assets/pdfs/class12-ch1-ex3.pdf   <-- Exercise 1.3
+    assets/pdfs/class12-ch1-review.pdf   <-- Exercise 1 Review
+  Chapter 2: Differentiation
+    assets/pdfs/class12-ch2-ex1.pdf   <-- Exercise 2.1
+    assets/pdfs/class12-ch2-ex2.pdf   <-- Exercise 2.2
+    assets/pdfs/class12-ch2-ex3.pdf   <-- Exercise 2.3
+    assets/pdfs/class12-ch2-review.pdf   <-- Exercise 2 Review
+  Chapter 3: Integration
+    assets/pdfs/class12-ch3-ex1.pdf   <-- Exercise 3.1
+    assets/pdfs/class12-ch3-ex2.pdf   <-- Exercise 3.2
+    assets/pdfs/class12-ch3-ex3.pdf   <-- Exercise 3.3
+    assets/pdfs/class12-ch3-review.pdf   <-- Exercise 3 Review
+  Chapter 4: Introduction to Analytic Geometry
+    assets/pdfs/class12-ch4-ex1.pdf   <-- Exercise 4.1
+    assets/pdfs/class12-ch4-ex2.pdf   <-- Exercise 4.2
+    assets/pdfs/class12-ch4-ex3.pdf   <-- Exercise 4.3
+    assets/pdfs/class12-ch4-review.pdf   <-- Exercise 4 Review
+  Chapter 5: Linear Inequalities & Linear Programming
+    assets/pdfs/class12-ch5-ex1.pdf   <-- Exercise 5.1
+    assets/pdfs/class12-ch5-ex2.pdf   <-- Exercise 5.2
+    assets/pdfs/class12-ch5-ex3.pdf   <-- Exercise 5.3
+    assets/pdfs/class12-ch5-review.pdf   <-- Exercise 5 Review
+  Chapter 6: Conic Section
+    assets/pdfs/class12-ch6-ex1.pdf   <-- Exercise 6.1
+    assets/pdfs/class12-ch6-ex2.pdf   <-- Exercise 6.2
+    assets/pdfs/class12-ch6-ex3.pdf   <-- Exercise 6.3
+    assets/pdfs/class12-ch6-review.pdf   <-- Exercise 6 Review
+  Chapter 7: Vectors
+    assets/pdfs/class12-ch7-ex1.pdf   <-- Exercise 7.1
+    assets/pdfs/class12-ch7-ex2.pdf   <-- Exercise 7.2
+    assets/pdfs/class12-ch7-ex3.pdf   <-- Exercise 7.3
+    assets/pdfs/class12-ch7-review.pdf   <-- Exercise 7 Review
+  Chapter 8: Sequences and Series
+    assets/pdfs/class12-ch8-ex1.pdf   <-- Exercise 8.1
+    assets/pdfs/class12-ch8-ex2.pdf   <-- Exercise 8.2
+    assets/pdfs/class12-ch8-ex3.pdf   <-- Exercise 8.3
+    assets/pdfs/class12-ch8-review.pdf   <-- Exercise 8 Review
+  Chapter 9: Permutation and Combination
+    assets/pdfs/class12-ch9-ex1.pdf   <-- Exercise 9.1
+    assets/pdfs/class12-ch9-ex2.pdf   <-- Exercise 9.2
+    assets/pdfs/class12-ch9-ex3.pdf   <-- Exercise 9.3
+    assets/pdfs/class12-ch9-review.pdf   <-- Exercise 9 Review
+  Chapter 10: Probability
+    assets/pdfs/class12-ch10-ex1.pdf   <-- Exercise 10.1
+    assets/pdfs/class12-ch10-ex2.pdf   <-- Exercise 10.2
+    assets/pdfs/class12-ch10-ex3.pdf   <-- Exercise 10.3
+    assets/pdfs/class12-ch10-review.pdf   <-- Exercise 10 Review
+  Chapter 11: Numerical Methods
+    assets/pdfs/class12-ch11-ex1.pdf   <-- Exercise 11.1
+    assets/pdfs/class12-ch11-ex2.pdf   <-- Exercise 11.2
+    assets/pdfs/class12-ch11-ex3.pdf   <-- Exercise 11.3
+    assets/pdfs/class12-ch11-review.pdf   <-- Exercise 11 Review
+  Chapter 12: Linear Algebra
+    assets/pdfs/class12-ch12-ex1.pdf   <-- Exercise 12.1
+    assets/pdfs/class12-ch12-ex2.pdf   <-- Exercise 12.2
+    assets/pdfs/class12-ch12-ex3.pdf   <-- Exercise 12.3
+    assets/pdfs/class12-ch12-review.pdf   <-- Exercise 12 Review
