@@ -3,6 +3,7 @@ workflows:
     name: Math Learning App - Android APK
     max_build_duration: 60
     instance_type: mac_mini_m2
+    working_directory: math_learning_app
     environment:
       flutter: stable
       vars:
@@ -18,8 +19,8 @@ workflows:
           flutter build apk --release
 
     artifacts:
-      - build/**/outputs/**/*.apk
-      - build/**/outputs/**/mapping.txt
+      - math_learning_app/build/**/outputs/**/*.apk
+      - math_learning_app/build/**/outputs/**/mapping.txt
 
     publishing:
       email:
