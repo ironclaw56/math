@@ -9,18 +9,17 @@ workflows:
         PACKAGE_NAME: "com.example.math_learning_app"
 
     scripts:
-      - name: Debug - show repo root structure
+      - name: Get Flutter packages
         script: |
-          echo "----- Current directory -----"
-          pwd
-          echo "----- Files at repo root -----"
-          ls -la
-          echo "----- Search for pubspec.yaml -----"
-          find . -name "pubspec.yaml" -not -path "*/ephemeral/*"
+          flutter pub get
+
+      - name: Build APK (release)
+        script: |
+          flutter build apk --release
 
     artifacts:
-      - math_learning_app/build/**/outputs/**/*.apk
       - build/**/outputs/**/*.apk
+      - build/**/outputs/**/mapping.txt
 
     publishing:
       email:
