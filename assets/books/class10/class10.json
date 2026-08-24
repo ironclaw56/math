@@ -218,7 +218,7 @@
     {
       "id": "class10-ch8",
       "chapterNumber": 8,
-      "title": "Projection of a Side of a Triangle",
+      "title": "Chords and Arcs of Circle",
       "exercises": [
         {
           "id": "class10-ch8-ex1",
@@ -228,13 +228,10 @@
           "id": "class10-ch8-ex2",
           "title": "Exercise 8.2"
         },
-        {
-          "id": "class10-ch8-ex3",
-          "title": "Exercise 8.3"
-        },
+       
         {
           "id": "class10-ch8-review",
-          "title": "Exercise 8 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -242,7 +239,7 @@
     {
       "id": "class10-ch9",
       "chapterNumber": 9,
-      "title": "Chords of a Circle",
+      "title": "Tangent and Angles of Circle",
       "exercises": [
         {
           "id": "class10-ch9-ex1",
@@ -252,13 +249,10 @@
           "id": "class10-ch9-ex2",
           "title": "Exercise 9.2"
         },
-        {
-          "id": "class10-ch9-ex3",
-          "title": "Exercise 9.3"
-        },
+        
         {
           "id": "class10-ch9-review",
-          "title": "Exercise 9 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -266,7 +260,7 @@
     {
       "id": "class10-ch10",
       "chapterNumber": 10,
-      "title": "Tangent to a Circle",
+      "title": "Practial Geometry of Circle",
       "exercises": [
         {
           "id": "class10-ch10-ex1",
@@ -276,13 +270,10 @@
           "id": "class10-ch10-ex2",
           "title": "Exercise 10.2"
         },
-        {
-          "id": "class10-ch10-ex3",
-          "title": "Exercise 10.3"
-        },
+      
         {
           "id": "class10-ch10-review",
-          "title": "Exercise 10 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -290,7 +281,7 @@
     {
       "id": "class10-ch11",
       "chapterNumber": 11,
-      "title": "Chords and Arcs",
+      "title": "Information Handling",
       "exercises": [
         {
           "id": "class10-ch11-ex1",
@@ -299,14 +290,10 @@
         {
           "id": "class10-ch11-ex2",
           "title": "Exercise 11.2"
-        },
-        {
-          "id": "class10-ch11-ex3",
-          "title": "Exercise 11.3"
-        },
+        }, 
         {
           "id": "class10-ch11-review",
-          "title": "Exercise 11 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -314,7 +301,7 @@
     {
       "id": "class10-ch12",
       "chapterNumber": 12,
-      "title": "Angle in a Segment of a Circle",
+      "title": "Probability",
       "exercises": [
         {
           "id": "class10-ch12-ex1",
@@ -330,34 +317,10 @@
         },
         {
           "id": "class10-ch12-review",
-          "title": "Exercise 12 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
     },
-    {
-      "id": "class10-ch13",
-      "chapterNumber": 13,
-      "title": "Practical Geometry - Circles",
-      "exercises": [
-        {
-          "id": "class10-ch13-ex1",
-          "title": "Exercise 13.1"
-        },
-        {
-          "id": "class10-ch13-ex2",
-          "title": "Exercise 13.2"
-        },
-        {
-          "id": "class10-ch13-ex3",
-          "title": "Exercise 13.3"
-        },
-        {
-          "id": "class10-ch13-review",
-          "title": "Exercise 13 Review"
-        }
-      ],
-      "isBookmarked": false
-    }
   ]
 }
