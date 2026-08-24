@@ -22,7 +22,7 @@
         },
         {
           "id": "class9-ch1-review",
-          "title": "Exercise 1 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -45,8 +45,12 @@
           "title": "Exercise 2.3"
         },
         {
+          "id": "class9-ch2-ex4",
+          "title": "Exercise 2.4"
+        },
+        {
           "id": "class9-ch2-review",
-          "title": "Exercise 2 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -54,7 +58,7 @@
     {
       "id": "class9-ch3",
       "chapterNumber": 3,
-      "title": "Algebraic Expressions",
+      "title": "Sets and Functions",
       "exercises": [
         {
           "id": "class9-ch3-ex1",
@@ -70,7 +74,7 @@
         },
         {
           "id": "class9-ch3-review",
-          "title": "Exercise 3 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -78,7 +82,7 @@
     {
       "id": "class9-ch4",
       "chapterNumber": 4,
-      "title": "Factorization",
+      "title": "Factorization and Algebric Maipulation",
       "exercises": [
         {
           "id": "class9-ch4-ex1",
@@ -93,8 +97,12 @@
           "title": "Exercise 4.3"
         },
         {
+          "id": "class9-ch4-ex4",
+          "title": "Exercise 4.4"
+        },
+        {
           "id": "class9-ch4-review",
-          "title": "Exercise 4 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -102,7 +110,7 @@
     {
       "id": "class9-ch5",
       "chapterNumber": 5,
-      "title": "Algebraic Formulas & Applications",
+      "title": "Linear Equations and Inequalities",
       "exercises": [
         {
           "id": "class9-ch5-ex1",
@@ -113,12 +121,8 @@
           "title": "Exercise 5.2"
         },
         {
-          "id": "class9-ch5-ex3",
-          "title": "Exercise 5.3"
-        },
-        {
           "id": "class9-ch5-review",
-          "title": "Exercise 5 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -126,7 +130,7 @@
     {
       "id": "class9-ch6",
       "chapterNumber": 6,
-      "title": "Linear Equations & Inequalities",
+      "title": "Trigonometry",
       "exercises": [
         {
           "id": "class9-ch6-ex1",
@@ -141,8 +145,20 @@
           "title": "Exercise 6.3"
         },
         {
+          "id": "class9-ch6-ex4",
+          "title": "Exercise 6.4"
+        },
+        {
+          "id": "class9-ch6-ex5",
+          "title": "Exercise 6.5"
+        },
+        {
+          "id": "class9-ch6-ex6",
+          "title": "Exercise 6.6"
+        },
+        {
           "id": "class9-ch6-review",
-          "title": "Exercise 6 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -150,7 +166,7 @@
     {
       "id": "class9-ch7",
       "chapterNumber": 7,
-      "title": "Antinomy of Sets",
+      "title": "Coordinate geometry",
       "exercises": [
         {
           "id": "class9-ch7-ex1",
@@ -166,7 +182,7 @@
         },
         {
           "id": "class9-ch7-review",
-          "title": "Exercise 7 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -174,23 +190,15 @@
     {
       "id": "class9-ch8",
       "chapterNumber": 8,
-      "title": "Fundamentals of Geometry",
+      "title": "Logic",
       "exercises": [
         {
           "id": "class9-ch8-ex1",
           "title": "Exercise 8.1"
         },
         {
-          "id": "class9-ch8-ex2",
-          "title": "Exercise 8.2"
-        },
-        {
-          "id": "class9-ch8-ex3",
-          "title": "Exercise 8.3"
-        },
-        {
           "id": "class9-ch8-review",
-          "title": "Exercise 8 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -198,7 +206,7 @@
     {
       "id": "class9-ch9",
       "chapterNumber": 9,
-      "title": "Congruent Triangles",
+      "title": "Similar Figures",
       "exercises": [
         {
           "id": "class9-ch9-ex1",
@@ -213,8 +221,12 @@
           "title": "Exercise 9.3"
         },
         {
+          "id": "class9-ch9-ex4",
+          "title": "Exercise 9.4"
+        },
+        {
           "id": "class9-ch9-review",
-          "title": "Exercise 9 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -222,7 +234,7 @@
     {
       "id": "class9-ch10",
       "chapterNumber": 10,
-      "title": "Parallelograms & Triangles",
+      "title": "Graphs and Functions",
       "exercises": [
         {
           "id": "class9-ch10-ex1",
@@ -233,12 +245,8 @@
           "title": "Exercise 10.2"
         },
         {
-          "id": "class9-ch10-ex3",
-          "title": "Exercise 10.3"
-        },
-        {
           "id": "class9-ch10-review",
-          "title": "Exercise 10 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -246,7 +254,7 @@
     {
       "id": "class9-ch11",
       "chapterNumber": 11,
-      "title": "Line Bisectors & Angle Bisectors",
+      "title": "Loci and Construction",
       "exercises": [
         {
           "id": "class9-ch11-ex1",
@@ -257,12 +265,8 @@
           "title": "Exercise 11.2"
         },
         {
-          "id": "class9-ch11-ex3",
-          "title": "Exercise 11.3"
-        },
-        {
           "id": "class9-ch11-review",
-          "title": "Exercise 11 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -270,7 +274,7 @@
     {
       "id": "class9-ch12",
       "chapterNumber": 12,
-      "title": "Sides & Angles of a Triangle",
+      "title": "Information Handling",
       "exercises": [
         {
           "id": "class9-ch12-ex1",
@@ -281,12 +285,8 @@
           "title": "Exercise 12.2"
         },
         {
-          "id": "class9-ch12-ex3",
-          "title": "Exercise 12.3"
-        },
-        {
           "id": "class9-ch12-review",
-          "title": "Exercise 12 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -294,7 +294,7 @@
     {
       "id": "class9-ch13",
       "chapterNumber": 13,
-      "title": "Ratio & Proportion",
+      "title": "Probability",
       "exercises": [
         {
           "id": "class9-ch13-ex1",
@@ -305,108 +305,8 @@
           "title": "Exercise 13.2"
         },
         {
-          "id": "class9-ch13-ex3",
-          "title": "Exercise 13.3"
-        },
-        {
           "id": "class9-ch13-review",
-          "title": "Exercise 13 Review"
-        }
-      ],
-      "isBookmarked": false
-    },
-    {
-      "id": "class9-ch14",
-      "chapterNumber": 14,
-      "title": "Pythagoras Theorem",
-      "exercises": [
-        {
-          "id": "class9-ch14-ex1",
-          "title": "Exercise 14.1"
-        },
-        {
-          "id": "class9-ch14-ex2",
-          "title": "Exercise 14.2"
-        },
-        {
-          "id": "class9-ch14-ex3",
-          "title": "Exercise 14.3"
-        },
-        {
-          "id": "class9-ch14-review",
-          "title": "Exercise 14 Review"
-        }
-      ],
-      "isBookmarked": false
-    },
-    {
-      "id": "class9-ch15",
-      "chapterNumber": 15,
-      "title": "Theorems Related with Area",
-      "exercises": [
-        {
-          "id": "class9-ch15-ex1",
-          "title": "Exercise 15.1"
-        },
-        {
-          "id": "class9-ch15-ex2",
-          "title": "Exercise 15.2"
-        },
-        {
-          "id": "class9-ch15-ex3",
-          "title": "Exercise 15.3"
-        },
-        {
-          "id": "class9-ch15-review",
-          "title": "Exercise 15 Review"
-        }
-      ],
-      "isBookmarked": false
-    },
-    {
-      "id": "class9-ch16",
-      "chapterNumber": 16,
-      "title": "Practical Geometry - Triangles",
-      "exercises": [
-        {
-          "id": "class9-ch16-ex1",
-          "title": "Exercise 16.1"
-        },
-        {
-          "id": "class9-ch16-ex2",
-          "title": "Exercise 16.2"
-        },
-        {
-          "id": "class9-ch16-ex3",
-          "title": "Exercise 16.3"
-        },
-        {
-          "id": "class9-ch16-review",
-          "title": "Exercise 16 Review"
-        }
-      ],
-      "isBookmarked": false
-    },
-    {
-      "id": "class9-ch17",
-      "chapterNumber": 17,
-      "title": "Circles",
-      "exercises": [
-        {
-          "id": "class9-ch17-ex1",
-          "title": "Exercise 17.1"
-        },
-        {
-          "id": "class9-ch17-ex2",
-          "title": "Exercise 17.2"
-        },
-        {
-          "id": "class9-ch17-ex3",
-          "title": "Exercise 17.3"
-        },
-        {
-          "id": "class9-ch17-review",
-          "title": "Exercise 17 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
