@@ -166,7 +166,7 @@
     {
       "id": "class10-ch6",
       "chapterNumber": 6,
-      "title": "Basic Statistics",
+      "title": "Vectors in Plane",
       "exercises": [
         {
           "id": "class10-ch6-ex1",
@@ -182,7 +182,7 @@
         },
         {
           "id": "class10-ch6-review",
-          "title": "Exercise 6 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -190,7 +190,7 @@
     {
       "id": "class10-ch7",
       "chapterNumber": 7,
-      "title": "Introduction to Trigonometry",
+      "title": "Trigonometry",
       "exercises": [
         {
           "id": "class10-ch7-ex1",
@@ -205,8 +205,12 @@
           "title": "Exercise 7.3"
         },
         {
+          "id": "class10-ch7-ex4",
+          "title": "Exercise 7.4"
+        },
+        {
           "id": "class10-ch7-review",
-          "title": "Exercise 7 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
