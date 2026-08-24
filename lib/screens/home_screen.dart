@@ -4,6 +4,7 @@ import '../widgets/class_button.dart';
 import 'chapter_screen.dart';
 import 'settings_screen.dart';
 import 'about_screen.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// Home screen: app title + four large gradient buttons for
 /// Class 9 / 10 / 11 / 12.
@@ -45,28 +46,36 @@ class HomeScreen extends StatelessWidget {
               sliver: SliverList(
                 delegate: SliverChildListDelegate([
                   const SizedBox(height: 8),
-                  // Math-themed header icon
-                  Container(
-                    width: 72,
-                    height: 72,
-                    decoration: BoxDecoration(
-                      gradient: const LinearGradient(
-                        colors: [Color(0xFF1565C0), Color(0xFF42A5F5)],
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
+ // Math-themed header icon (now links to YouTube)
+                  GestureDetector(
+                    onTap: () async {
+                      final uri = Uri.parse('https://www.youtube.com/@AbsoluteMathematic');
+                      if (await canLaunchUrl(uri)) {
+                        await launchUrl(uri, mode: LaunchMode.externalApplication);
+                      }
+                    },
+                    child: Container(
+                      width: 72,
+                      height: 72,
+                      decoration: BoxDecoration(
+                        gradient: const LinearGradient(
+                          colors: [Color(0xFFFF0000), Color(0xFFFF5252)],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                        borderRadius: BorderRadius.circular(20),
                       ),
-                      borderRadius: BorderRadius.circular(20),
+                      alignment: Alignment.center,
+                      child: const Icon(
+                        Icons.play_circle_fill_rounded,
+                        size: 40,
+                        color: Colors.white,
+                      ),
                     ),
-                    alignment: Alignment.center,
-                    child: const Text('∫',
-                        style: TextStyle(
-                            fontSize: 36,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold)),
                   ),
                   const SizedBox(height: 20),
                   Text(
-                    'Mathematics Learning App',
+                    'Absolute Mathametic',
                     style: Theme.of(context).textTheme.headlineMedium,
                   ),
                   const SizedBox(height: 6),
