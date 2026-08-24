@@ -54,23 +54,38 @@ class HomeScreen extends StatelessWidget {
                         await launchUrl(uri, mode: LaunchMode.externalApplication);
                       }
                     },
-                    child: Container(
-                      width: 72,
-                      height: 72,
-                      decoration: BoxDecoration(
-                        gradient: const LinearGradient(
-                          colors: [Color(0xFFFF0000), Color(0xFFFF5252)],
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Container(
+                          width: 72,
+                          height: 72,
+                          decoration: BoxDecoration(
+                            gradient: const LinearGradient(
+                              colors: [Color(0xFF1565C0), Color(0xFF42A5F5)],
+                              begin: Alignment.topLeft,
+                              end: Alignment.bottomRight,
+                            ),
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          alignment: Alignment.center,
+                          child: const Icon(
+                            Icons.play_circle_fill_rounded,
+                            size: 40,
+                            color: Colors.white,
+                          ),
                         ),
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      alignment: Alignment.center,
-                      child: const Icon(
-                        Icons.play_circle_fill_rounded,
-                        size: 40,
-                        color: Colors.white,
-                      ),
+                        const SizedBox(width: 14),
+                        Expanded(
+                          child: Text(
+                            'Click here for video lectures for better understanding',
+                            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                  color: Theme.of(context).colorScheme.onSurfaceVariant,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                   const SizedBox(height: 20),
