@@ -32,13 +32,13 @@ class DataService {
       id: 'class11',
       displayName: 'Class 11',
       emoji: '📙',
-      gradient: [Color(0xFFEF6C00), Color(0xFFFFA726)],
+      gradient: [Color(0xFFFFA726), Color(0xFFFFCC80)],
     ),
     _ClassMeta(
       id: 'class12',
       displayName: 'Class 12',
       emoji: '📕',
-      gradient: [Color(0xFFC62828), Color(0xFFEF5350)],
+      gradient: [Color(0xFFE57373), Color(0xFFFFAB91)],
     ),
   ];
 
