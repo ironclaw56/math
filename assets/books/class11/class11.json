@@ -6,7 +6,7 @@
     {
       "id": "class11-ch1",
       "chapterNumber": 1,
-      "title": "Number Systems",
+      "title": "Complex Numbers",
       "exercises": [
         {
           "id": "class11-ch1-ex1",
@@ -21,8 +21,16 @@
           "title": "Exercise 1.3"
         },
         {
+          "id": "class11-ch1-ex4",
+          "title": "Exercise 1.4"
+        },
+        {
+          "id": "class11-ch1-ex5",
+          "title": "Exercise 1.5"
+        },
+        {
           "id": "class11-ch1-review",
-          "title": "Exercise 1 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -30,7 +38,7 @@
     {
       "id": "class11-ch2",
       "chapterNumber": 2,
-      "title": "Sets, Functions & Groups",
+      "title": "Functions and Graphs",
       "exercises": [
         {
           "id": "class11-ch2-ex1",
@@ -41,12 +49,8 @@
           "title": "Exercise 2.2"
         },
         {
-          "id": "class11-ch2-ex3",
-          "title": "Exercise 2.3"
-        },
-        {
           "id": "class11-ch2-review",
-          "title": "Exercise 2 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -54,7 +58,7 @@
     {
       "id": "class11-ch3",
       "chapterNumber": 3,
-      "title": "Matrices & Determinants",
+      "title": "Theory of Quadratic Functions",
       "exercises": [
         {
           "id": "class11-ch3-ex1",
@@ -65,12 +69,8 @@
           "title": "Exercise 3.2"
         },
         {
-          "id": "class11-ch3-ex3",
-          "title": "Exercise 3.3"
-        },
-        {
           "id": "class11-ch3-review",
-          "title": "Exercise 3 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -78,7 +78,7 @@
     {
       "id": "class11-ch4",
       "chapterNumber": 4,
-      "title": "Quadratic Equations",
+      "title": "Matrices and Determinants",
       "exercises": [
         {
           "id": "class11-ch4-ex1",
@@ -94,7 +94,7 @@
         },
         {
           "id": "class11-ch4-review",
-          "title": "Exercise 4 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -113,12 +113,8 @@
           "title": "Exercise 5.2"
         },
         {
-          "id": "class11-ch5-ex3",
-          "title": "Exercise 5.3"
-        },
-        {
           "id": "class11-ch5-review",
-          "title": "Exercise 5 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -141,8 +137,40 @@
           "title": "Exercise 6.3"
         },
         {
+          "id": "class11-ch6-ex4",
+          "title": "Exercise 6.4"
+        },
+        {
+          "id": "class11-ch6-ex5",
+          "title": "Exercise 6.5"
+        },
+        {
+          "id": "class11-ch6-ex6",
+          "title": "Exercise 6.6"
+        },
+        {
+          "id": "class11-ch6-ex7",
+          "title": "Exercise 6.7"
+        },
+        {
+          "id": "class11-ch6-ex8",
+          "title": "Exercise 6.8"
+        },
+        {
+          "id": "class11-ch6-ex9",
+          "title": "Exercise 6.9"
+        },
+        {
+          "id": "class11-ch6-ex10",
+          "title": "Exercise 6.10"
+        },
+        {
+          "id": "class11-ch6-ex11",
+          "title": "Exercise 6.11"
+        },
+        {
           "id": "class11-ch6-review",
-          "title": "Exercise 6 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -150,7 +178,7 @@
     {
       "id": "class11-ch7",
       "chapterNumber": 7,
-      "title": "Permutation, Combination & Probability",
+      "title": "Permutation, Combinations",
       "exercises": [
         {
           "id": "class11-ch7-ex1",
@@ -165,8 +193,12 @@
           "title": "Exercise 7.3"
         },
         {
+          "id": "class11-ch7-ex4",
+          "title": "Exercise 7.4"
+        },
+        {
           "id": "class11-ch7-review",
-          "title": "Exercise 7 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -174,7 +206,7 @@
     {
       "id": "class11-ch8",
       "chapterNumber": 8,
-      "title": "Mathematical Induction & Binomial Theorem",
+      "title": "Mathematical Induction and Binomial Theorem",
       "exercises": [
         {
           "id": "class11-ch8-ex1",
@@ -189,8 +221,12 @@
           "title": "Exercise 8.3"
         },
         {
+          "id": "class11-ch8-ex4",
+          "title": "Exercise 8.4"
+        },
+        {
           "id": "class11-ch8-review",
-          "title": "Exercise 8 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -198,7 +234,7 @@
     {
       "id": "class11-ch9",
       "chapterNumber": 9,
-      "title": "Fundamentals of Trigonometry",
+      "title": "Division of Polynomials",
       "exercises": [
         {
           "id": "class11-ch9-ex1",
@@ -209,12 +245,8 @@
           "title": "Exercise 9.2"
         },
         {
-          "id": "class11-ch9-ex3",
-          "title": "Exercise 9.3"
-        },
-        {
           "id": "class11-ch9-review",
-          "title": "Exercise 9 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -237,8 +269,12 @@
           "title": "Exercise 10.3"
         },
         {
+          "id": "class11-ch10-ex4",
+          "title": "Exercise 10.4"
+        },
+        {
           "id": "class11-ch10-review",
-          "title": "Exercise 10 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -246,7 +282,7 @@
     {
       "id": "class11-ch11",
       "chapterNumber": 11,
-      "title": "Trigonometric Functions & Graphs",
+      "title": "Trigonometric Functions and their Graphs",
       "exercises": [
         {
           "id": "class11-ch11-ex1",
@@ -262,7 +298,7 @@
         },
         {
           "id": "class11-ch11-review",
-          "title": "Exercise 11 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -270,7 +306,7 @@
     {
       "id": "class11-ch12",
       "chapterNumber": 12,
-      "title": "Application of Trigonometry",
+      "title": "Limit and Continuity",
       "exercises": [
         {
           "id": "class11-ch12-ex1",
@@ -286,7 +322,7 @@
         },
         {
           "id": "class11-ch12-review",
-          "title": "Exercise 12 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -294,7 +330,7 @@
     {
       "id": "class11-ch13",
       "chapterNumber": 13,
-      "title": "Inverse Trigonometric Functions",
+      "title": "Differentiation",
       "exercises": [
         {
           "id": "class11-ch13-ex1",
@@ -310,7 +346,7 @@
         },
         {
           "id": "class11-ch13-review",
-          "title": "Exercise 13 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
@@ -318,7 +354,7 @@
     {
       "id": "class11-ch14",
       "chapterNumber": 14,
-      "title": "Solutions of Trigonometric Equations",
+      "title": "Vectors in Space",
       "exercises": [
         {
           "id": "class11-ch14-ex1",
@@ -333,32 +369,12 @@
           "title": "Exercise 14.3"
         },
         {
+          "id": "class11-ch14-ex4",
+          "title": "Exercise 14.4"
+        },
+        {
           "id": "class11-ch14-review",
-          "title": "Exercise 14 Review"
-        }
-      ],
-      "isBookmarked": false
-    },
-    {
-      "id": "class11-ch15",
-      "chapterNumber": 15,
-      "title": "Plane Analytic Geometry - Line",
-      "exercises": [
-        {
-          "id": "class11-ch15-ex1",
-          "title": "Exercise 15.1"
-        },
-        {
-          "id": "class11-ch15-ex2",
-          "title": "Exercise 15.2"
-        },
-        {
-          "id": "class11-ch15-ex3",
-          "title": "Exercise 15.3"
-        },
-        {
-          "id": "class11-ch15-review",
-          "title": "Exercise 15 Review"
+          "title": "Review Exercise"
         }
       ],
       "isBookmarked": false
