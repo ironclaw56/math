@@ -35,7 +35,7 @@ class AboutScreen extends StatelessWidget {
             const SizedBox(height: 20),
             Center(
               child: Text(
-                'Mathematics Learning App',
+                'Absolute Mathametic App',
                 style: theme.textTheme.titleLarge,
                 textAlign: TextAlign.center,
               ),
@@ -64,7 +64,6 @@ class AboutScreen extends StatelessWidget {
               'Chapter-wise quizzes',
               'Video lectures',
               'Progress tracking',
-              'PDF downloads',
             ].map(
               (f) => Padding(
                 padding: const EdgeInsets.symmetric(vertical: 4),
@@ -76,6 +75,15 @@ class AboutScreen extends StatelessWidget {
                     Text(f),
                   ],
                 ),
+              ),
+            ),
+                        const SizedBox(height: 24),
+            Center(
+              child: Text(
+                'Developed by M Usman\nhusman11967@gmail.com',
+                textAlign: TextAlign.center,
+                style: theme.textTheme.bodySmall
+                    ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
               ),
             ),
           ],
