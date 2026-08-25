@@ -77,13 +77,15 @@ class AboutScreen extends StatelessWidget {
                 ),
               ),
             ),
-                        const SizedBox(height: 24),
+                                    const Spacer(),
             Center(
               child: Text(
                 'Developed by M Usman\nhusman11967@gmail.com',
                 textAlign: TextAlign.center,
-                style: theme.textTheme.bodySmall
-                    ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
+                style: theme.textTheme.labelSmall?.copyWith(
+                  color: theme.colorScheme.onSurfaceVariant,
+                  fontSize: 10,
+                ),
               ),
             ),
           ],
