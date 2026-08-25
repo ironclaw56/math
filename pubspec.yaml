@@ -8,13 +8,14 @@ environment:
   sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
-http: ^1.2.2 aur path_provider: ^2.1.4
   flutter:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
   url_launcher: ^6.3.1
   syncfusion_flutter_pdfviewer: ^32.2.9
+  http: ^1.2.2
+  path_provider: ^2.1.4
 
 dev_dependencies:
   flutter_test:
