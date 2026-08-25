@@ -54,38 +54,48 @@ class HomeScreen extends StatelessWidget {
                         await launchUrl(uri, mode: LaunchMode.externalApplication);
                       }
                     },
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
-                          width: 72,
-                          height: 72,
-                          decoration: BoxDecoration(
-                            gradient: const LinearGradient(
-                              colors: [Color(0xFF1565C0), Color(0xFF42A5F5)],
-                              begin: Alignment.topLeft,
-                              end: Alignment.bottomRight,
+                    child: Container(
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Theme.of(context).colorScheme.outlineVariant,
+                          width: 1,
+                        ),
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Container(
+                            width: 60,
+                            height: 60,
+                            decoration: BoxDecoration(
+                              gradient: const LinearGradient(
+                                colors: [Color(0xFFE53935), Color(0xFFEF5350)],
+                                begin: Alignment.topLeft,
+                                end: Alignment.bottomRight,
+                              ),
+                              borderRadius: BorderRadius.circular(16),
                             ),
-                            borderRadius: BorderRadius.circular(20),
+                            alignment: Alignment.center,
+                            child: const Icon(
+                              Icons.play_circle_fill_rounded,
+                              size: 34,
+                              color: Colors.white,
+                            ),
                           ),
-                          alignment: Alignment.center,
-                          child: const Icon(
-                            Icons.play_circle_fill_rounded,
-                            size: 40,
-                            color: Colors.white,
+                          const SizedBox(width: 14),
+                          Expanded(
+                            child: Text(
+                              'Click here for video lectures for better understanding',
+                              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                            ),
                           ),
-                        ),
-                        const SizedBox(width: 14),
-                        Expanded(
-                          child: Text(
-                            'Click here for video lectures for better understanding',
-                            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                  color: Theme.of(context).colorScheme.onSurfaceVariant,
-                                  fontWeight: FontWeight.w500,
-                                ),
-                          ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                   const SizedBox(height: 20),
