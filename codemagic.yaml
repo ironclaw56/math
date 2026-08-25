@@ -15,7 +15,7 @@ workflows:
 
       - name: Build APK (release)
         script: |
-          flutter build apk --release
+          flutter build apk --release --split-per-abi
 
     artifacts:
       - build/**/outputs/**/*.apk
