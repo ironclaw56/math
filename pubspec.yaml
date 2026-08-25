@@ -8,6 +8,7 @@ environment:
   sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
+http: ^1.2.2 aur path_provider: ^2.1.4
   flutter:
     sdk: flutter
 
@@ -29,4 +30,3 @@ flutter:
     - assets/books/class10/class10.json
     - assets/books/class11/class11.json
     - assets/books/class12/class12.json
-    - assets/pdfs/
