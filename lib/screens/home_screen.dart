@@ -12,10 +12,50 @@ import 'about_screen.dart';
 
 /// Home screen: app title + four large gradient buttons for
 /// Class 9 / 10 / 11 / 12, each with its own "download all PDFs" icon.
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
-  /// Formats milliseconds as a short WhatsApp-style remaining-time label.
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  /// classId -> whether every exercise PDF for that class is already
+  /// cached on disk. Until a class has been checked, it's treated as
+  /// "not fully downloaded" so the download button stays visible.
+  final Map<String, bool> _allDownloaded = {};
+
+  @override
+  void initState() {
+    super.initState();
+    _checkAllClassesDownloadStatus();
+  }
+
+  Future<void> _checkAllClassesDownloadStatus() async {
+    for (final meta in DataService.instance.classMetaList) {
+      final isComplete = await _isClassFullyDownloaded(meta.id);
+      if (mounted) {
+        setState(() => _allDownloaded[meta.id] = isComplete);
+      }
+    }
+  }
+
+  Future<bool> _isClassFullyDownloaded(String classId) async {
+    final classModel = await DataService.instance.loadClass(classId);
+    final allExercises = <ExerciseModel>[
+      for (final chapter in classModel.chapters) ...chapter.exercises,
+    ];
+    if (allExercises.isEmpty) return true;
+
+    final dir = await getApplicationDocumentsDirectory();
+    for (final ex in allExercises) {
+      final file = File('${dir.path}/${ex.cacheFileName}');
+      if (!await file.exists()) return false;
+    }
+    return true;
+  }
+
+  /// Formats milliseconds as a short remaining-time label.
   static String _formatRemaining(int ms) {
     final seconds = (ms / 1000).ceil();
     if (seconds <= 1) return '1 sec remaining';
@@ -27,7 +67,8 @@ class HomeScreen extends StatelessWidget {
 
   /// Downloads every exercise PDF for [classId] that isn't already
   /// cached, showing a live progress dialog with a percentage and a
-  /// WhatsApp-style "X sec remaining" estimate.
+  /// "X sec remaining" estimate. Once complete, the class's download
+  /// button is hidden since everything is now cached locally.
   Future<void> _downloadAllPdfs(
     BuildContext context,
     String classId,
@@ -36,7 +77,7 @@ class HomeScreen extends StatelessWidget {
     // Small loading toast while we read the chapter/exercise list.
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('$classDisplayName ki list taiyar ho rahi hai...'),
+        content: Text('Preparing the list for $classDisplayName...'),
         duration: const Duration(seconds: 1),
       ),
     );
@@ -57,11 +98,14 @@ class HomeScreen extends StatelessWidget {
     }
 
     if (toDownload.isEmpty) {
+      if (mounted) {
+        setState(() => _allDownloaded[classId] = true);
+      }
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text(
-              '$classDisplayName ki saari PDFs pehle se download hain ✓',
+              'All PDFs for $classDisplayName are already downloaded ✓',
             ),
           ),
         );
@@ -122,7 +166,7 @@ class HomeScreen extends StatelessWidget {
             }
 
             return AlertDialog(
-              title: Text('$classDisplayName ki PDFs download ho rahi hain'),
+              title: Text('Downloading PDFs for $classDisplayName'),
               content: Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -138,7 +182,7 @@ class HomeScreen extends StatelessWidget {
                   if (failed > 0) ...[
                     const SizedBox(height: 6),
                     Text(
-                      '$failed file(s) fail ho gayi',
+                      '$failed file(s) failed to download',
                       style: TextStyle(color: Theme.of(context).colorScheme.error),
                     ),
                   ],
@@ -152,16 +196,29 @@ class HomeScreen extends StatelessWidget {
 
     stopwatch.stop();
 
+    // Only mark the class as fully downloaded if nothing failed; if some
+    // files failed, keep the button visible so the user can retry.
+    if (failed == 0 && mounted) {
+      setState(() => _allDownloaded[classId] = true);
+    }
+
     if (context.mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(
             failed == 0
-                ? '$classDisplayName ki saari PDFs download ho gayin ✓'
-                : '${total - failed} PDFs download hui, $failed fail hui',
+                ? 'All PDFs for $classDisplayName downloaded successfully ✓'
+                : '${total - failed} PDFs downloaded, $failed failed',
           ),
         ),
       );
+    }
+  }
+
+  Future<void> _openYoutubeChannel() async {
+    final uri = Uri.parse('https://www.youtube.com/@AbsoluteMathematic');
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
     }
   }
 
@@ -200,30 +257,64 @@ class HomeScreen extends StatelessWidget {
               sliver: SliverList(
                 delegate: SliverChildListDelegate([
                   const SizedBox(height: 8),
-                  // Math-themed header icon (now links to YouTube)
-                  GestureDetector(
-                    onTap: () async {
-                      final uri = Uri.parse('APNA_YOUTUBE_LINK_YAHAN_DAALEIN');
-                      if (await canLaunchUrl(uri)) {
-                        await launchUrl(uri, mode: LaunchMode.externalApplication);
-                      }
-                    },
-                    child: Container(
-                      width: 72,
-                      height: 72,
-                      decoration: BoxDecoration(
-                        gradient: const LinearGradient(
-                          colors: [Color(0xFFFF0000), Color(0xFFFF5252)],
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
+                  // YouTube promo box: icon + professional caption, whole
+                  // box is tappable and opens the channel directly.
+                  Material(
+                    color: Colors.transparent,
+                    child: InkWell(
+                      borderRadius: BorderRadius.circular(20),
+                      onTap: _openYoutubeChannel,
+                      child: Container(
+                        padding: const EdgeInsets.all(16),
+                        decoration: BoxDecoration(
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFFFF0000), Color(0xFFFF5252)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
+                          borderRadius: BorderRadius.circular(20),
                         ),
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      alignment: Alignment.center,
-                      child: const Icon(
-                        Icons.play_circle_fill_rounded,
-                        size: 40,
-                        color: Colors.white,
+                        child: Row(
+                          children: [
+                            const Icon(
+                              Icons.play_circle_fill_rounded,
+                              size: 44,
+                              color: Colors.white,
+                            ),
+                            const SizedBox(width: 16),
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    'For a better understanding',
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .titleMedium
+                                        ?.copyWith(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                  ),
+                                  const SizedBox(height: 2),
+                                  Text(
+                                    'Tap here to watch our video lectures on YouTube',
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .bodyMedium
+                                        ?.copyWith(
+                                          color: Colors.white.withOpacity(0.9),
+                                        ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const Icon(
+                              Icons.chevron_right_rounded,
+                              color: Colors.white,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -254,11 +345,15 @@ class HomeScreen extends StatelessWidget {
                             ),
                           );
                         },
-                        onDownloadTap: () => _downloadAllPdfs(
-                          context,
-                          meta.id,
-                          meta.displayName,
-                        ),
+                        // Passing null hides the download icon once all
+                        // PDFs for this class are already on disk.
+                        onDownloadTap: (_allDownloaded[meta.id] ?? false)
+                            ? null
+                            : () => _downloadAllPdfs(
+                                  context,
+                                  meta.id,
+                                  meta.displayName,
+                                ),
                       ),
                     ),
                   ),
