@@ -9,12 +9,17 @@ class ClassButton extends StatelessWidget {
   final List<Color> gradientColors;
   final VoidCallback onTap;
 
+  /// Optional — shows a small download icon on the button. Tapping it
+  /// downloads all PDFs for this class without opening the class.
+  final VoidCallback? onDownloadTap;
+
   const ClassButton({
     super.key,
     required this.emoji,
     required this.label,
     required this.gradientColors,
     required this.onTap,
+    this.onDownloadTap,
   });
 
   @override
@@ -44,7 +49,7 @@ class ClassButton extends StatelessWidget {
             ],
           ),
           child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 22, horizontal: 16),
+            padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 16),
             child: Row(
               children: [
                 Text(emoji, style: const TextStyle(fontSize: 34)),
@@ -59,6 +64,16 @@ class ClassButton extends StatelessWidget {
                     ),
                   ),
                 ),
+                if (onDownloadTap != null)
+                  IconButton(
+                    tooltip: 'Download all PDFs',
+                    icon: const Icon(
+                      Icons.download_for_offline_outlined,
+                      color: Colors.white,
+                      size: 26,
+                    ),
+                    onPressed: onDownloadTap,
+                  ),
                 const Icon(Icons.arrow_forward_ios_rounded,
                     color: Colors.white, size: 20),
               ],
