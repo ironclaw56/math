@@ -74,7 +74,6 @@ class _HomeScreenState extends State<HomeScreen> {
     String classId,
     String classDisplayName,
   ) async {
-    // Small loading toast while we read the chapter/exercise list.
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text('Preparing the list for $classDisplayName...'),
@@ -165,28 +164,77 @@ class _HomeScreenState extends State<HomeScreen> {
               remainingLabel = 'Almost done...';
             }
 
-            return AlertDialog(
-              title: Text('Downloading PDFs for $classDisplayName'),
-              content: Column(
-                mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  LinearProgressIndicator(value: progress),
-                  const SizedBox(height: 12),
-                  Text('$percent%  •  $completed / $total files'),
-                  const SizedBox(height: 4),
-                  Text(
-                    remainingLabel,
-                    style: Theme.of(context).textTheme.bodySmall,
-                  ),
-                  if (failed > 0) ...[
-                    const SizedBox(height: 6),
-                    Text(
-                      '$failed file(s) failed to download',
-                      style: TextStyle(color: Theme.of(context).colorScheme.error),
+            return Dialog(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(24),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        const Icon(Icons.cloud_download_outlined, size: 26),
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: Text(
+                            'Downloading $classDisplayName',
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleMedium
+                                ?.copyWith(fontWeight: FontWeight.w600),
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ),
+                      ],
                     ),
+                    const SizedBox(height: 20),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(8),
+                      child: LinearProgressIndicator(
+                        value: progress,
+                        minHeight: 8,
+                      ),
+                    ),
+                    const SizedBox(height: 14),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          '$percent%',
+                          style: Theme.of(context)
+                              .textTheme
+                              .titleLarge
+                              ?.copyWith(fontWeight: FontWeight.bold),
+                        ),
+                        Text(
+                          '$completed of $total files',
+                          style: Theme.of(context).textTheme.bodyMedium,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      remainingLabel,
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                            color:
+                                Theme.of(context).colorScheme.onSurfaceVariant,
+                          ),
+                    ),
+                    if (failed > 0) ...[
+                      const SizedBox(height: 10),
+                      Text(
+                        '$failed file(s) could not be downloaded',
+                        style: TextStyle(
+                          color: Theme.of(context).colorScheme.error,
+                          fontSize: 13,
+                        ),
+                      ),
+                    ],
                   ],
-                ],
+                ),
               ),
             );
           },
@@ -196,8 +244,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
     stopwatch.stop();
 
-    // Only mark the class as fully downloaded if nothing failed; if some
-    // files failed, keep the button visible so the user can retry.
     if (failed == 0 && mounted) {
       setState(() => _allDownloaded[classId] = true);
     }
@@ -216,7 +262,8 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _openYoutubeChannel() async {
-    final uri = Uri.parse('https://www.youtube.com/@AbsoluteMathematic');
+    // TODO: double-check this is your exact channel URL before shipping.
+    final uri = Uri.parse('www.youtube.com/@AbsoluteMathematic');
     if (await canLaunchUrl(uri)) {
       await launchUrl(uri, mode: LaunchMode.externalApplication);
     }
@@ -257,8 +304,8 @@ class _HomeScreenState extends State<HomeScreen> {
               sliver: SliverList(
                 delegate: SliverChildListDelegate([
                   const SizedBox(height: 8),
-                  // YouTube promo box: icon + professional caption, whole
-                  // box is tappable and opens the channel directly.
+                  // YouTube promo box: soft blue gradient (easy on the
+                  // eyes) with a subtle white border, whole box tappable.
                   Material(
                     color: Colors.transparent,
                     child: InkWell(
@@ -268,11 +315,23 @@ class _HomeScreenState extends State<HomeScreen> {
                         padding: const EdgeInsets.all(16),
                         decoration: BoxDecoration(
                           gradient: const LinearGradient(
-                            colors: [Color(0xFFFF0000), Color(0xFFFF5252)],
+                            colors: [Color(0xFF1565C0), Color(0xFF42A5F5)],
                             begin: Alignment.topLeft,
                             end: Alignment.bottomRight,
                           ),
                           borderRadius: BorderRadius.circular(20),
+                          border: Border.all(
+                            color: Colors.white.withValues(alpha: 0.5),
+                            width: 1.5,
+                          ),
+                          boxShadow: [
+                            BoxShadow(
+                              color: const Color(0xFF1565C0)
+                                  .withValues(alpha: 0.35),
+                              blurRadius: 14,
+                              offset: const Offset(0, 6),
+                            ),
+                          ],
                         ),
                         child: Row(
                           children: [
@@ -303,7 +362,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                         .textTheme
                                         .bodyMedium
                                         ?.copyWith(
-                                          color: Colors.white.withOpacity(0.9),
+                                          color: Colors.white
+                                              .withValues(alpha: 0.9),
                                         ),
                                   ),
                                 ],
@@ -345,8 +405,6 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           );
                         },
-                        // Passing null hides the download icon once all
-                        // PDFs for this class are already on disk.
                         onDownloadTap: (_allDownloaded[meta.id] ?? false)
                             ? null
                             : () => _downloadAllPdfs(
