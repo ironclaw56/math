@@ -263,7 +263,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _openYoutubeChannel() async {
     // TODO: double-check this is your exact channel URL before shipping.
-    final uri = Uri.parse('www.youtube.com/@AbsoluteMathematic');
+    final uri = Uri.parse('https://www.youtube.com/@AbsoluteMathematic');
     if (await canLaunchUrl(uri)) {
       await launchUrl(uri, mode: LaunchMode.externalApplication);
     }
